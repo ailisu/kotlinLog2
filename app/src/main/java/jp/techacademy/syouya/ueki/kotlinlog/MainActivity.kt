@@ -13,8 +13,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val human = Human("こうき",18 ,"")
-        val hobby = Human("メソッド",0,"")
+
+        val hobby = Human("",0,"")
+
 
         hobby.think()
         human.say()
